@@ -1,19 +1,19 @@
 /*
-  Morse.h - Library for flashing Morse code.
-  Created by David A. Mellis, November 2, 2007.
+  MorseTR.h - Library for flashing Morse code.
+  Created by özenSoftware, June 8, 2024.
   Released into the public domain.
 */
-#ifndef Morse_h
-#define Morse_h
+#ifndef MorseTR_h
+#define MorseTR_h
 
 #include "Arduino.h"
 
-class Morse
+class MorseTC
 {
   public:
-    Morse(int pin);
-    void dot();
-    void dash();
+    MorseTur(int pin);
+    void nokta();
+    void cizgi();
   private:
     int _pin;
 };
